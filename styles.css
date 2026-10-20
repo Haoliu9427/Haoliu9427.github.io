@@ -175,3 +175,17 @@
  .home-work-links{gap:14px}
  .research-card-detail{padding-top:10px}
 }
+
+
+/* Academic experience and CV of Failure */
+.background-jump{display:flex;flex-wrap:wrap;gap:12px 24px;margin:0 0 36px;font-size:13px;color:var(--teal-deep)}
+.background-jump a{border-bottom:1px solid var(--line-strong);padding-bottom:4px}
+.background-jump a:hover{border-color:var(--teal)}
+.failure-section{padding-top:48px;padding-bottom:24px}
+.failure-panel{border-top:1px solid var(--line-strong);padding-top:32px}
+.failure-panel h2{font-size:clamp(26px,3vw,36px);letter-spacing:-.02em;margin-bottom:18px}
+.failure-panel p{color:var(--muted);margin-bottom:0}
+.funding-note{margin-top:36px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted)}
+.funding-note h2{font-size:16px;margin-bottom:8px;color:var(--ink)}
+.funding-note p{margin-bottom:0}
+.members-empty-panel p:empty{display:none}
