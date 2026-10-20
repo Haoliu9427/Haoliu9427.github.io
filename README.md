@@ -32,3 +32,20 @@ Edit the bilingual content arrays in `script.js`; fixed headings and page copy a
 
 ## Local preview
 Open `index.html` in a browser, or run `python -m http.server 8000` in this directory and visit http://localhost:8000/.
+
+## Contact form
+The contact page sends messages through FormSubmit to `irisliu9427@outlook.com`.
+The recipient confirmed activation on October 21, 2026, and an integration test
+was accepted by the service. No Outlook password or API secret is stored in the site.
+
+Visitors provide their name, reply email, and message. The page reports success
+only when the service accepts the submission. Activation errors, network errors,
+and timeouts preserve the message for retry; the direct email link remains available.
+The service processes message content and depends on FormSubmit availability.
+If the recipient changes, update the form action and AJAX endpoint and complete
+the new recipient's email verification. See https://formsubmit.co/documentation.
+
+Research cards share grid rows so headings, descriptions, and dividers align
+across each row in both languages. Member details are in the translation dictionary
+in `script.js` and the corresponding HTML fallback in `members.html`.
+

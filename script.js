@@ -10,9 +10,9 @@ const T={
     "nav.background": "Background",
     "nav.members": "Lab members",
     "nav.contact": "Contact",
-    "hero.eyebrow": "HELLO, I'M HAO LIU",
+    "hero.eyebrow": "HAO LIU · AI & MARINE ECOLOGY",
     "hero.title": "Studying ocean ecology with <span class=\"hero-highlight\">AI</span>",
-    "hero.lede": "I'm a PhD student in Environmental Science at Nankai University. I study marine heatwaves, harmful algal blooms, and what happens when environmental pressures overlap. I use machine learning to explore these questions and build research agents that people can try.",
+    "hero.lede": "My research examines marine ecosystem responses to global change. I combine machine learning, causal analysis, and ecological networks to study marine heatwaves, harmful algal blooms, and interacting environmental pressures, and develop research agents for ecological forecasting.",
     "hero.ctaResearch": "Explore research",
     "hero.ctaProjects": "View projects",
     "hero.affiliation": "School of Environmental Science & Engineering · Nankai University",
@@ -27,7 +27,7 @@ const T={
     "home.research.title": "What I'm working on",
     "home.research.link": "Explore research",
     "home.work.eyebrow": "RESEARCH IN PRACTICE",
-    "home.work.title": "Tools I build for research",
+    "home.work.title": "Research tools & open-source projects",
     "home.work.link": "View all projects",
     "home.work.globalhab.type": "AI FOR RESEARCH · GLOBAL FINAL",
     "home.work.globalhab.desc": "A research agent I developed for global harmful algal bloom forecasting, bringing together environmental data analysis, prediction, and event replay.",
@@ -42,16 +42,16 @@ const T={
     "sections.background": "BACKGROUND",
     "sections.contact": "CONTACT",
     "about.title": "Using computation to study ecology",
-    "about.lead": "I'm a PhD student in Environmental Science at Nankai University, working on marine ecology and AI. My current research focuses on marine heatwaves, algal blooms, and the effects of overlapping environmental pressures.",
-    "about.detail": "My training spans applied mathematics, computer science, and environmental science. I also worked as a research assistant at Ocean College, Zhejiang University. These experiences come together in my work: predicting ecological changes, examining the environmental factors behind them, and building tools such as GlobalHAB-Agent and CoralBleach-Agent.",
+    "about.lead": "My research focuses on AI and marine ecology, with an emphasis on compound environmental pressures, ecological responses, and risk prediction under global change. I integrate environmental data and computational methods to study marine heatwaves, algal blooms, and ecological networks.",
+    "about.detail": "My background spans applied mathematics, computer science, and environmental science, including research at Ocean College, Zhejiang University. I work with machine learning, interpretable analysis, causal inference, and graph models to study compound marine extremes and ecological forecasting. I have developed GlobalHAB-Agent and CoralBleach-Agent, with demos and source code available.",
     "about.approach.eyebrow": "HOW I WORK",
-    "about.approach.title": "How I work",
-    "about.approach1.title": "Start with a question",
-    "about.approach1.text": "What happens when a marine heatwave overlaps with other pressures? Can we spot signals before an algal bloom? These questions guide the data I look for and the analyses I run.",
-    "about.approach2.title": "Choose the methods",
-    "about.approach2.text": "I use prediction, interpretable analysis, lag analysis, and graph models to track environmental changes and examine when and where ecological responses appear.",
-    "about.approach3.title": "Build something people can try",
-    "about.approach3.text": "I turn research workflows into programs people can run and explore. Both research agents on this site have demos and source code available.",
+    "about.approach.title": "Research approach",
+    "about.approach1.title": "Ecological questions",
+    "about.approach1.text": "I study interactions between marine heatwaves and other environmental pressures, as well as early signals of algal blooms, through data analysis and modelling.",
+    "about.approach2.title": "Data and methods",
+    "about.approach2.text": "I combine environmental observations, predictive models, lag analysis, and graph representations to examine the timing, spatial connections, and drivers of ecological responses.",
+    "about.approach3.title": "Research tools",
+    "about.approach3.text": "I bring data processing, model experiments, and analysis into research tools, sharing methods through open-source code and online demos.",
     "research.title": "Questions that guide the work",
     "research.note": "Marine heatwaves, algal blooms, ecological networks, and the methods I use to study them.",
     "research.logic1.title": "Characterize pressures",
@@ -74,8 +74,8 @@ const T={
     "background.title": "Training across disciplines",
     "background.education": "Education",
     "background.experience": "Research experience",
-    "contact.title": "Let's talk",
-    "contact.description": "If you work on marine ecology, machine learning, or ecological forecasting, feel free to email me. I'd be glad to discuss a paper, hear how the tools work for you, or explore a project together.",
+    "contact.title": "Research collaboration",
+    "contact.description": "Please get in touch about marine ecology, AI, ecological forecasting, or interdisciplinary research. You can email me or use the form below to discuss research ideas, collaborations, and questions about the tools.",
     "contact.email": "Email",
     "pageTitle.home": "Hao Liu | AI for Marine Ecosystems",
     "pageTitle.about": "About | Hao Liu",
@@ -87,13 +87,13 @@ const T={
     "pageTitle.contact": "Contact | Hao Liu",
     "page.about.eyebrow": "PROFILE / ABOUT",
     "page.about.title": "Personal profile",
-    "page.about.lede": "My background is in mathematics, computer science, and environmental science. I now bring these fields together to study marine ecology.",
+    "page.about.lede": "Artificial intelligence, marine ecology, and global change.",
     "page.research.eyebrow": "RESEARCH / QUESTIONS",
     "page.research.title": "Research questions",
-    "page.research.lede": "I study how marine ecosystems are changing and how we can spot those changes earlier.",
+    "page.research.lede": "Studying ecological responses to compound environmental pressures and developing methods for ecological forecasting, interpretable analysis, and graph learning.",
     "page.projects.eyebrow": "PROJECTS / PORTFOLIO",
     "page.projects.title": "Research projects",
-    "page.projects.lede": "Tools I've built, competitions I've taken part in, and research in progress.",
+    "page.projects.lede": "Research tools, open-source projects, and ongoing research.",
     "page.publications.eyebrow": "PUBLICATIONS / SELECTED WORK",
     "page.publications.title": "Selected publications",
     "page.publications.lede": "Browse publications by year and author role.",
@@ -102,10 +102,10 @@ const T={
     "page.background.lede": "Where I've studied, the research I've done, and the setbacks along the way.",
     "page.members.eyebrow": "PEOPLE / GROUP",
     "page.members.title": "Lab members",
-    "page.members.lede": "The people I work with.",
+    "page.members.lede": "Team members and research interests.",
     "page.contact.eyebrow": "CONTACT / COLLABORATION",
     "page.contact.title": "Contact",
-    "page.contact.lede": "Get in touch about research, tools, or an idea you'd like to discuss.",
+    "page.contact.lede": "For research discussions and collaboration.",
     "about.tag1": "Machine learning",
     "about.tag2": "Marine ecology",
     "about.tag3": "Global change",
@@ -120,14 +120,32 @@ const T={
     "projects.competition.lede": "Both projects have online demos and source code to explore.",
     "projects.framework.eyebrow": "RESEARCH FRAMEWORKS",
     "projects.framework.title": "Research frameworks",
-    "projects.framework.lede": "Two projects I'm currently working on.",
+    "projects.framework.lede": "Research frameworks and methods in development.",
     "members.empty.title": "Member profiles (to be added)",
     "members.empty.description": "",
-    "footer.note": "Last updated, October 20, 2026",
+    "footer.note": "Last updated, October 21, 2026",
     "footer.top": "Back to top",
     "background.failure.title": "CV of Failure",
     "background.failure.empty": "(To be added)",
-    "background.failure.link": "CV of Failure ↓"
+    "background.failure.link": "CV of Failure ↓",
+    "member.name": "Hao Liu",
+    "member.subtitle": "AI & Marine Ecology",
+    "member.bio": "I study AI and marine ecology, focusing on compound marine extremes, ecological forecasting, causal analysis, and graph learning. My research tools include GlobalHAB-Agent and CoralBleach-Agent.",
+    "member.profile": "Profile",
+    "member.contact": "Contact",
+    "form.title": "Send a message",
+    "form.intro": "Please include your email so I can reply.",
+    "form.name": "Name",
+    "form.email": "Your email",
+    "form.message": "Your question or message",
+    "form.send": "Send",
+    "form.sending": "Sending…",
+    "form.success": "Your message has been submitted. Thank you for getting in touch. I will reply to the email you provided.",
+    "form.error": "Unable to send right now. Your message has been kept. Please try again later or email me directly.",
+    "form.activation": "The message service is awaiting activation. Please email me directly for now. Your message has been kept.",
+    "form.timeout": "The request timed out; submission could not be confirmed. Your message has been kept. Please try later or email me directly.",
+    "form.notice": "Messages are forwarded by FormSubmit to irisliu9427@outlook.com.",
+    "form.mail": "Email directly"
   },
   "zh": {
     "skip": "跳转到正文",
@@ -139,9 +157,9 @@ const T={
     "nav.background": "学术经历",
     "nav.members": "团队成员",
     "nav.contact": "联系方式",
-    "hero.eyebrow": "你好，我是刘浩",
+    "hero.eyebrow": "刘浩 · 人工智能与海洋生态",
     "hero.title": "用<span class=\"hero-highlight\">人工智能</span>研究海洋生态",
-    "hero.lede": "我在南开大学读环境科学博士，主要研究海洋热浪、有害藻华，以及多种环境压力叠加时的生态变化。我用机器学习分析这些问题，也动手做科研智能体，把研究想法做成可以试用的工具。",
+    "hero.lede": "我的研究聚焦全球变化下的海洋生态响应，结合机器学习、因果分析与生态网络，研究海洋热浪、有害藻华和多重环境压力，并开发用于生态预测与预警的科研智能体。",
     "hero.ctaResearch": "研究方向",
     "hero.ctaProjects": "科研项目",
     "hero.affiliation": "南开大学 · 环境科学与工程学院",
@@ -156,7 +174,7 @@ const T={
     "home.research.title": "我在研究什么",
     "home.research.link": "查看全部研究方向",
     "home.work.eyebrow": "科研实践",
-    "home.work.title": "我做的科研工具",
+    "home.work.title": "科研工具与开源项目",
     "home.work.link": "查看全部科研项目",
     "home.work.globalhab.type": "AI FOR RESEARCH · 全球总决赛",
     "home.work.globalhab.desc": "我为全球有害藻华预测与预警开发的科研智能体，把环境数据分析、预测和典型事件回放串起来。",
@@ -171,16 +189,16 @@ const T={
     "sections.background": "学术经历",
     "sections.contact": "联系方式",
     "about.title": "用计算方法研究生态问题",
-    "about.lead": "我现在在南开大学读环境科学博士，研究海洋生态和人工智能。海洋热浪、藻华和多种环境压力叠加时发生的变化，是我目前最关注的问题。",
-    "about.detail": "我学过应用数学、计算机科学和环境科学，也在浙江大学海洋学院做过科研助理。现在做研究，这几段经历都用得上：用模型预测生态变化，分析哪些环境因素在起作用，再把方法做成工具。GlobalHAB-Agent和CoralBleach-Agent就是其中两个项目。",
+    "about.lead": "我的研究聚焦人工智能与海洋生态，重点关注全球变化下的复合环境压力、生态响应及风险预测。通过融合环境数据与计算方法，研究海洋热浪、藻华和生态网络中的关键过程。",
+    "about.detail": "我具有应用数学、计算机科学与环境科学的跨学科研究背景，曾在浙江大学海洋学院从事科研工作。研究方法涵盖机器学习、可解释分析、因果推断和图模型，相关工作涉及海洋复合极端、生态预测与科研智能体。已开发GlobalHAB-Agent和CoralBleach-Agent，并开放演示与代码。",
     "about.approach.eyebrow": "研究思路",
-    "about.approach.title": "平时怎么做研究",
-    "about.approach1.title": "先把问题想清楚",
-    "about.approach1.text": "我常问的是：海洋热浪和其他压力碰到一起，会发生什么？藻华出现之前，有没有能提前看到的信号？具体问题决定接下来找什么数据、做什么分析。",
-    "about.approach2.title": "找合适的方法",
-    "about.approach2.text": "预测、可解释分析、时滞分析和图模型，是我常用的方法。我用它们追踪环境变化，分析生态响应出现的时间和位置。",
-    "about.approach3.title": "把想法做出来",
-    "about.approach3.text": "我也把研究流程写成程序，做成可以打开、运行和查看结果的工具。网站上的两个科研智能体都提供了演示和源码，欢迎试用。",
+    "about.approach.title": "研究思路",
+    "about.approach1.title": "围绕生态问题",
+    "about.approach1.text": "围绕海洋热浪与多重环境压力的相互作用、藻华的早期信号等问题，开展数据分析与建模。",
+    "about.approach2.title": "结合数据与方法",
+    "about.approach2.text": "结合环境观测、预测模型、时滞分析和图结构，分析生态响应的时间变化、空间联系与驱动因素。",
+    "about.approach3.title": "开发科研工具",
+    "about.approach3.text": "将数据处理、模型实验和结果分析整合为科研工具，通过开源代码与在线演示分享研究方法。",
     "research.title": "我关注的研究问题",
     "research.note": "海洋热浪、藻华、生态网络，以及研究它们的计算方法。",
     "research.logic1.title": "识别环境压力",
@@ -203,8 +221,8 @@ const T={
     "background.title": "跨学科的学术训练",
     "background.education": "教育背景",
     "background.experience": "科研经历",
-    "contact.title": "欢迎来聊聊",
-    "contact.description": "如果你也在研究海洋生态、机器学习或生态预测，欢迎给我写邮件。想讨论论文、试用工具，或者一起做点研究，都可以联系我。",
+    "contact.title": "科研合作与交流",
+    "contact.description": "欢迎就海洋生态、人工智能、生态预测及交叉学科研究联系我。可通过邮箱或下方留言表单交流研究想法、项目合作与工具使用问题。",
     "contact.email": "邮箱",
     "pageTitle.home": "刘浩｜人工智能与海洋生态",
     "pageTitle.about": "个人简介｜刘浩",
@@ -216,13 +234,13 @@ const T={
     "pageTitle.contact": "联系方式｜刘浩",
     "page.about.eyebrow": "个人主页 / 简介",
     "page.about.title": "个人简介",
-    "page.about.lede": "我学过数学、计算机和环境科学，现在用这些方法研究海洋生态。",
+    "page.about.lede": "人工智能、海洋生态与全球变化。",
     "page.research.eyebrow": "研究方向 / 科学问题",
     "page.research.title": "我关注的研究问题",
-    "page.research.lede": "我想弄清海洋生态正在发生什么变化，以及能不能更早看到这些变化。",
+    "page.research.lede": "研究复合环境压力下的生态响应，发展生态预测、可解释分析与图学习方法。",
     "page.projects.eyebrow": "科研项目 / 作品集",
     "page.projects.title": "科研项目",
-    "page.projects.lede": "我做的工具、参加的竞赛，以及手头正在推进的研究。",
+    "page.projects.lede": "科研工具、开源项目与正在开展的研究。",
     "page.publications.eyebrow": "论文成果 / 代表性工作",
     "page.publications.title": "代表性论文",
     "page.publications.lede": "可按发表年份和作者身份筛选论文。",
@@ -231,10 +249,10 @@ const T={
     "page.background.lede": "我在哪里学习、做过哪些研究，以及一路上的失败经历。",
     "page.members.eyebrow": "团队 / 成员",
     "page.members.title": "团队成员",
-    "page.members.lede": "一起做研究的人。",
+    "page.members.lede": "团队成员与研究方向。",
     "page.contact.eyebrow": "联系 / 合作交流",
     "page.contact.title": "联系方式",
-    "page.contact.lede": "聊研究、聊工具，或者交流一个想法，都欢迎。",
+    "page.contact.lede": "欢迎交流研究想法、探讨科研合作。",
     "about.tag1": "机器学习",
     "about.tag2": "海洋生态",
     "about.tag3": "全球变化",
@@ -249,14 +267,32 @@ const T={
     "projects.competition.lede": "这两个项目都有在线演示和源码，可以直接打开看看。",
     "projects.framework.eyebrow": "研究框架",
     "projects.framework.title": "研究框架",
-    "projects.framework.lede": "目前在做的两个研究方向。",
+    "projects.framework.lede": "正在开展的研究框架与方法。",
     "members.empty.title": "成员介绍（待补充）",
     "members.empty.description": "",
-    "footer.note": "最近更新，2026年10月20日",
+    "footer.note": "最近更新，2026年10月21日",
     "footer.top": "返回顶部",
     "background.failure.title": "CV of Failure",
     "background.failure.empty": "（待补充）",
-    "background.failure.link": "CV of Failure ↓"
+    "background.failure.link": "CV of Failure ↓",
+    "member.name": "刘浩",
+    "member.subtitle": "Hao Liu · 人工智能与海洋生态",
+    "member.bio": "研究人工智能与海洋生态的交叉问题，关注海洋复合极端、生态预测、因果分析与图学习，开发GlobalHAB-Agent和CoralBleach-Agent等科研工具。",
+    "member.profile": "个人简介",
+    "member.contact": "联系我",
+    "form.title": "给我留言",
+    "form.intro": "请留下你的邮箱，方便我回复。",
+    "form.name": "姓名",
+    "form.email": "你的邮箱",
+    "form.message": "想问的问题或交流的内容",
+    "form.send": "发送",
+    "form.sending": "正在发送…",
+    "form.success": "留言已提交。感谢来信，我会通过你留下的邮箱回复。",
+    "form.error": "暂时无法发送，内容已保留。请稍后重试，或直接发送邮件。",
+    "form.activation": "留言功能正在启用中，暂时无法投递。请通过右侧邮箱联系我，填写的内容已保留。",
+    "form.timeout": "发送超时，尚未确认是否提交成功，内容已保留。请稍后再试或直接发送邮件。",
+    "form.notice": "留言经FormSubmit转发至irisliu9427@outlook.com。",
+    "form.mail": "直接发邮件"
   }
 };
 const R={
@@ -544,6 +580,7 @@ const educationList=$("#education-list");if(educationList)educationList.innerHTM
 const experienceList=$("#experience-list");if(experienceList)experienceList.innerHTML=X[lang].map(x=>'<article class="timeline-item"><h4>'+x[0]+'</h4><p class="timeline-place">'+x[1]+'</p></article>').join("");
 $$("[data-page-link]").forEach(a=>a.classList.toggle("active",a.dataset.pageLink===page));
 normalizeChineseSpacing(document.body);
+if(typeof renderContactStatus === "function")renderContactStatus();
 }
 const languageButton=$("#language-toggle");
 if(languageButton)languageButton.addEventListener("click",()=>{lang=lang==="en"?"zh":"en";try{localStorage.setItem("academic-site-language",lang)}catch(e){}render()});
@@ -552,5 +589,48 @@ if(publicationFilters)publicationFilters.addEventListener("click",event=>{const 
 const toggle=$("#menu-toggle"),nav=$("#site-nav");
 if(toggle&&nav)toggle.addEventListener("click",()=>{const open=toggle.getAttribute("aria-expanded")==="true";toggle.setAttribute("aria-expanded",String(!open));toggle.setAttribute("aria-label",open?"Open navigation":"Close navigation");nav.classList.toggle("open",!open)});
 if(nav)$$('#site-nav a').forEach(a=>a.addEventListener("click",()=>{nav.classList.remove("open");if(toggle)toggle.setAttribute("aria-expanded","false")}));
+const contactForm=$("#contact-form");
+let contactState="";
+let contactSending=false;
+function renderContactStatus(){
+  if(!contactForm)return;
+  const status=$("#contact-form-status"),button=$("#contact-send");
+  status.textContent=contactState?T[lang]["form."+contactState]:"";
+  status.dataset.state=contactState;
+  button.textContent=T[lang][contactSending?"form.sending":"form.send"];
+  button.disabled=contactSending;
+  contactForm.setAttribute("aria-busy",String(contactSending));
+}
+if(contactForm)contactForm.addEventListener("submit",async event=>{
+  event.preventDefault();
+  if(contactSending)return;
+  const fields=contactForm.elements;
+  for(const name of ["name","email","message"])fields.namedItem(name).value=fields.namedItem(name).value.trim();
+  if(!contactForm.reportValidity())return;
+  if(fields.namedItem("_honey").value)return;
+  contactSending=true;contactState="";renderContactStatus();
+  const controller=new AbortController();
+  const timeout=setTimeout(()=>controller.abort(),20000);
+  try{
+    const payload=Object.fromEntries(new FormData(contactForm));
+    payload._replyto=payload.email;
+    const response=await fetch("https://formsubmit.co/ajax/irisliu9427@outlook.com",{
+      method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},
+      body:JSON.stringify(payload),signal:controller.signal
+    });
+    const result=await response.json();
+    if(!response.ok)throw new Error("Service unavailable");
+    if(/activat|actived|confirm.{0,20}email/i.test(String(result.message||""))){
+      contactState="activation";
+    }else if(result.success===true||result.success==="true"){
+      contactState="success";contactForm.reset();
+    }else contactState="error";
+  }catch(error){
+    contactState=error.name==="AbortError"?"timeout":"error";
+  }finally{
+    clearTimeout(timeout);contactSending=false;renderContactStatus();
+  }
+});
+
 render();
 })();
