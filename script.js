@@ -31,8 +31,24 @@ zh:[
 {type:"研究框架",status:"研究进行中",title:"STS-Graph",desc:"基于冲击—传导—溢出（STS）框架，分析湖泊生态系统中复合极端、空间传播路径与藻华动态。",tags:["复合极端","空间溢出","图学习"],links:[["项目详情待补充",null]]},
 {type:"生态网络",status:"研究进行中",title:"浮游生物高阶食物网",desc:"构建高阶相互作用框架，研究复合海洋压力下浮游生物食物网的稳定性与韧性。",tags:["超图","食物网稳定性","ST-HGAT"],links:[["项目详情待补充",null]]}]};
 const PUB={
-en:[["2025","Global Change Biology","Marine heatwaves and iceberg melting in polar areas intensify phytoplankton blooms","First author","First author"],["2026","Environmental Science & Technology","Anomalies of net primary productivity under compound marine heatwaves and microplastics","First author","First author"],["2026","Environmental Science & Technology","Global characterization of sea turtle ecological traps driven by compound marine heatwaves and microplastics","First author","First author"],["2026","Nature Communications","Decreases in South Pacific and South Atlantic sea-air CO2 fluxes caused by extreme precipitation","Second author","Second author"],["2023","iScience","Environmental tipping points for global soil carbon fixation microorganisms","Co-first author","Co-first author"]],
-zh:[["2025","Global Change Biology","Marine heatwaves and iceberg melting in polar areas intensify phytoplankton blooms","第一作者","第一作者"],["2026","Environmental Science & Technology","Anomalies of net primary productivity under compound marine heatwaves and microplastics","第一作者","第一作者"],["2026","Environmental Science & Technology","Global characterization of sea turtle ecological traps driven by compound marine heatwaves and microplastics","第一作者","第一作者"],["2026","Nature Communications","Decreases in South Pacific and South Atlantic sea-air CO2 fluxes caused by extreme precipitation","第二作者","第二作者"],["2023","iScience","Environmental tipping points for global soil carbon fixation microorganisms","共同第一作者","共同第一作者"]]};
+en:[
+["2025","Global Change Biology","Marine heatwaves and iceberg melting in polar areas intensify phytoplankton blooms","First author","First author"],
+["2026","Environmental Science & Technology","Anomalies of net primary productivity under compound marine heatwaves and microplastics","First author","First author"],
+["2026","Environmental Science & Technology","Global characterization of sea turtle ecological traps driven by compound marine heatwaves and microplastics","First author","First author"],
+["2026","Environmental Science & Technology","An AI framework for pollutant studies","Accepted · Co-first author","Co-first author"],
+["2025","Environmental Science & Technology","<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=wZEQ1fgAAAAJ&amp;authuser=1&amp;citation_for_view=wZEQ1fgAAAAJ:2osOgNQ5qMEC\" target=\"_blank\" rel=\"noopener noreferrer\">Spatiotemporal Distribution of Marine Viral Functions Associated with Microplastics</a>","Fourth author","Fourth author"],
+["2026","Nature Communications","Decreases in South Pacific and South Atlantic sea-air CO2 fluxes caused by extreme precipitation","Second author","Second author"],
+["2023","iScience","<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=wZEQ1fgAAAAJ&amp;authuser=1&amp;citation_for_view=wZEQ1fgAAAAJ:d1gkVwhDpl0C\" target=\"_blank\" rel=\"noopener noreferrer\">Environmental tipping points for global soil nitrogen-fixing microorganisms</a>","Second author","Second author"]
+],
+zh:[
+["2025","Global Change Biology","Marine heatwaves and iceberg melting in polar areas intensify phytoplankton blooms","第一作者","第一作者"],
+["2026","Environmental Science & Technology","Anomalies of net primary productivity under compound marine heatwaves and microplastics","第一作者","第一作者"],
+["2026","Environmental Science & Technology","Global characterization of sea turtle ecological traps driven by compound marine heatwaves and microplastics","第一作者","第一作者"],
+["2026","Environmental Science & Technology","An AI framework for pollutant studies","已接收·共同第一作者","共同第一作者"],
+["2025","Environmental Science & Technology","<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=wZEQ1fgAAAAJ&amp;authuser=1&amp;citation_for_view=wZEQ1fgAAAAJ:2osOgNQ5qMEC\" target=\"_blank\" rel=\"noopener noreferrer\">Spatiotemporal Distribution of Marine Viral Functions Associated with Microplastics</a>","第四作者","第四作者"],
+["2026","Nature Communications","Decreases in South Pacific and South Atlantic sea-air CO2 fluxes caused by extreme precipitation","第二作者","第二作者"],
+["2023","iScience","<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=wZEQ1fgAAAAJ&amp;authuser=1&amp;citation_for_view=wZEQ1fgAAAAJ:d1gkVwhDpl0C\" target=\"_blank\" rel=\"noopener noreferrer\">Environmental tipping points for global soil nitrogen-fixing microorganisms</a>","第二作者","第二作者"]
+]};
 const E={
 en:[["PhD candidate · Environmental Science","Nankai University"],["MSc · Integrated Science & Engineering","Tokyo Institute of Technology"],["MSc · Computer Science","The University of Tokyo"]],
 zh:[["博士研究生·环境科学","南开大学"],["硕士研究生·融合理工学","东京工业大学"],["硕士研究生·计算机科学","东京大学"]]
