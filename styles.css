@@ -63,3 +63,39 @@
 .filter-chip:focus-visible{outline:2px solid var(--orange);outline-offset:3px}
 .publication-empty{margin:0;padding:24px 4px;border-bottom:1px solid var(--line);color:var(--muted);font-size:13px;line-height:1.7}
 @media(max-width:600px){.publication-filter-row{align-items:flex-start;gap:7px}.filter-row-label{flex-basis:65px;padding-top:8px}.filter-chip{padding:7px 10px}}
+
+
+/* Independent page layouts: keep each navigation item focused on one topic. */
+.page-intro.section-wrap{padding-top:62px;padding-bottom:8px}
+.page-intro .section-index{margin-bottom:16px}
+.page-intro h1{max-width:900px;margin:0 0 15px;font:600 clamp(36px,4.4vw,58px)/1.12 var(--display);letter-spacing:-.055em}
+.page-intro-lede{max-width:740px;margin:0;color:var(--muted);font-size:14px;line-height:1.85}
+.section.page-content{padding-top:30px;padding-bottom:76px}
+.about-section.page-content .about-grid{padding-top:10px;padding-bottom:30px}
+.research-grid{align-items:start}
+.research-card{min-height:0;align-self:start;height:auto;padding:21px 20px}
+.research-card .research-icon{margin-top:0}
+.project-category-block+.project-category-block{margin-top:58px}
+.category-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;margin-bottom:22px}
+.category-heading h2{font:600 clamp(24px,2.7vw,32px)/1.2 var(--display);letter-spacing:-.04em;margin:8px 0 0}
+.category-lede{max-width:700px;color:var(--muted);font-size:13px;line-height:1.75;margin:10px 0 0}
+.category-count{flex:0 0 auto;display:grid;place-items:center;min-width:40px;height:40px;padding:0 10px;border:1px solid var(--line-strong);border-radius:50%;color:var(--teal);font:500 11px var(--mono)}
+.funding-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.funding-card{min-height:142px;padding:23px 24px;border:1px dashed var(--line-strong);border-radius:14px;background:#ffffff70}
+.funding-mark{display:grid;place-items:center;width:30px;height:30px;border-radius:9px;background:var(--teal-pale);color:var(--teal-deep);font-size:18px;margin-bottom:15px}
+.funding-card h3{font:700 15px/1.4 var(--display);margin:0 0 8px}
+.funding-card p{max-width:620px;margin:0;color:var(--muted);font-size:12px;line-height:1.8}
+.members-empty-panel{max-width:820px;padding:38px;border:1px solid var(--line);border-radius:18px;background:#ffffff80}
+.members-empty-symbol{display:grid;place-items:center;width:52px;height:52px;border:1px solid var(--line-strong);border-radius:15px;background:var(--teal-pale);color:var(--teal-deep);font-weight:700;letter-spacing:.02em;margin-bottom:24px}
+.members-empty-panel .section-index{margin-bottom:9px}
+.members-empty-panel h2{font:600 clamp(23px,2.8vw,32px)/1.25 var(--display);letter-spacing:-.04em;margin:0 0 12px}
+.members-empty-panel>p:last-child{max-width:590px;margin:0;color:var(--muted);font-size:13px;line-height:1.9}
+@media(max-width:760px){
+  .page-intro.section-wrap{padding-top:42px;padding-bottom:5px}
+  .page-intro h1{font-size:clamp(34px,8vw,48px)}
+  .section.page-content{padding-top:24px;padding-bottom:54px}
+  .funding-grid{grid-template-columns:1fr}
+  .category-heading{gap:12px}
+  .category-count{min-width:34px;height:34px}
+  .members-empty-panel{padding:26px 22px}
+}
