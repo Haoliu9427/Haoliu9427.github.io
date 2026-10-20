@@ -40,3 +40,13 @@
 .publication-title a{color:inherit;text-decoration-color:rgba(72,125,125,.35);text-underline-offset:3px}
 .publication-title a:hover{text-decoration-color:currentColor}
 @media(max-width:760px){.visual-caption{left:18px;right:18px;bottom:14px;gap:8px;font-size:9px}.visual-caption>span:first-child{max-width:62%}.caption-index{font-size:8px;padding-right:0}}
+
+/* October 2026 refinement: keep the globe editorial, geographically grounded, and unclipped */
+.visual-topline{justify-content:flex-end}
+.visual-caption{left:22px;right:30px;bottom:16px;gap:12px;align-items:flex-end}
+.visual-caption>span:first-child{max-width:68%;min-width:0}
+.caption-index{flex:0 0 auto;white-space:nowrap;margin-left:auto;padding-right:10px;font-size:9px;letter-spacing:.02em}
+.sts-globe-realistic{overflow:visible}
+.publication-title a{color:inherit;text-decoration-color:rgba(72,125,125,.35);text-underline-offset:3px}
+.publication-title a:hover{text-decoration-color:currentColor}
+@media(max-width:760px){.visual-caption{left:18px;right:22px;bottom:14px;gap:8px;font-size:9px}.visual-caption>span:first-child{max-width:62%}.caption-index{font-size:8px;padding-right:2px}}
