@@ -48,15 +48,11 @@
     <section class="hero section-wrap" id="top">
       <div class="hero-copy">
         <p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="hero.eyebrow">RESEARCHER · AI × MARINE ECOLOGY</span></p>
-        <h1 data-i18n="hero.title">Understanding a changing ocean with <em>intelligent systems.</em></h1>
+        <h1 data-i18n="hero.title">Understanding a changing ocean with <span class="hero-highlight">intelligent systems</span></h1>
         <p class="hero-lede" data-i18n="hero.lede">I work at the intersection of artificial intelligence, marine ecology, and global change — developing interpretable methods to understand ecological responses and improve environmental prediction.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#research"><span data-i18n="hero.ctaResearch">Explore research</span><span aria-hidden="true">↘</span></a>
           <a class="button button-quiet" href="#projects"><span data-i18n="hero.ctaProjects">View projects</span><span aria-hidden="true">↗</span></a>
-        </div>
-        <div class="hero-meta">
-          <span class="meta-pin" aria-hidden="true"></span>
-          <span data-i18n="hero.affiliation">School of Environmental Science & Engineering · Nankai University</span>
         </div>
       </div>
 
@@ -67,53 +63,46 @@
         </div>
         <svg class="ocean-graphic" viewBox="0 0 580 500" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <defs>
-            <linearGradient id="oceanFill" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stop-color="#b8d9d1" stop-opacity=".85"/>
-              <stop offset="100%" stop-color="#477f85" stop-opacity=".2"/>
-            </linearGradient>
-            <radialGradient id="heat" cx=".5" cy=".5" r=".5">
-              <stop offset="0%" stop-color="#e9a06c" stop-opacity=".9"/>
-              <stop offset="100%" stop-color="#e9a06c" stop-opacity="0"/>
-            </radialGradient>
-            <clipPath id="globeClip"><circle cx="290" cy="242" r="174"/></clipPath>
+            <linearGradient id="fieldFill" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f0f4ec"/><stop offset="100%" stop-color="#c8e0d8"/></linearGradient>
+            <radialGradient id="anomalyGlow" cx=".5" cy=".5" r=".5"><stop offset="0%" stop-color="#e8a06b" stop-opacity=".72"/><stop offset="100%" stop-color="#e8a06b" stop-opacity="0"/></radialGradient>
+            <pattern id="fieldDots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".8" fill="#8eb4ac" opacity=".38"/></pattern>
+            <clipPath id="fieldClip"><rect x="26" y="42" width="528" height="390" rx="22"/></clipPath>
           </defs>
-          <circle cx="290" cy="242" r="192" fill="none" stroke="#b6c9c4" stroke-width="1" stroke-dasharray="3 8"/>
-          <circle cx="290" cy="242" r="174" fill="url(#oceanFill)" stroke="#709d9b" stroke-width="1.3"/>
-          <g clip-path="url(#globeClip)" fill="none" stroke="#f3f7f2" stroke-opacity=".82" stroke-width="1.15">
-            <ellipse cx="290" cy="242" rx="174" ry="62"/>
-            <ellipse cx="290" cy="242" rx="174" ry="116"/>
-            <ellipse cx="290" cy="242" rx="62" ry="174"/>
-            <ellipse cx="290" cy="242" rx="116" ry="174"/>
-            <path d="M108 241 C174 218 226 272 291 241 S420 212 474 247"/>
-            <path d="M117 292 C188 255 238 319 302 286 S415 273 464 300"/>
-            <path d="M128 191 C185 215 226 163 287 190 S398 217 450 181"/>
+          <rect x="26" y="42" width="528" height="390" rx="22" fill="url(#fieldFill)" stroke="#c7dcd3"/>
+          <g clip-path="url(#fieldClip)">
+            <rect x="26" y="42" width="528" height="390" fill="url(#fieldDots)" opacity=".72"/>
+            <g fill="none" stroke="#8bb8b0" stroke-width="1.25">
+              <path d="M-8 153 C54 99 108 118 153 154 S247 220 311 175 S424 95 590 147"/>
+              <path d="M-10 188 C48 139 107 154 156 188 S251 252 316 218 S429 140 590 187" opacity=".8"/>
+              <path d="M-10 231 C49 188 111 195 166 227 S258 289 326 256 S438 182 590 230" opacity=".7"/>
+              <path d="M-10 278 C53 236 116 242 171 270 S266 333 331 300 S442 228 590 276" opacity=".65"/>
+              <path d="M-10 326 C53 283 116 289 173 318 S269 377 335 348 S447 274 590 325" opacity=".75"/>
+            </g>
+            <ellipse cx="370" cy="190" rx="102" ry="77" fill="url(#anomalyGlow)"/>
+            <path d="M298 174 C320 147 357 145 383 164 C410 184 417 213 394 232 C370 252 333 245 312 224 C296 208 286 190 298 174Z" fill="none" stroke="#e0a174" stroke-width="1.4" stroke-dasharray="4 5"/>
+            <path d="M314 180 C335 159 363 162 383 178 C400 192 401 210 383 225 C363 241 337 230 323 216 C312 205 306 191 314 180Z" fill="none" stroke="#d58c59" stroke-width="1.3"/>
+            <g stroke="#4d8886" stroke-width="1.2" opacity=".82" fill="none">
+              <path d="M88 145 L153 181 L216 157 L275 205 L329 178 L384 220 L457 188"/>
+              <path d="M153 181 L176 252 L240 277 L275 205"/><path d="M240 277 L317 315 L384 220 L438 287 L489 330"/>
+              <path d="M329 178 L354 125 L420 140 L457 188"/><path d="M88 145 L110 312 L176 252"/>
+            </g>
+            <g fill="#f6f7f1" stroke="#397a78" stroke-width="2">
+              <circle cx="88" cy="145" r="5"/><circle cx="153" cy="181" r="5"/><circle cx="216" cy="157" r="5"/><circle cx="275" cy="205" r="5"/>
+              <circle cx="329" cy="178" r="5"/><circle cx="384" cy="220" r="5"/><circle cx="457" cy="188" r="5"/><circle cx="176" cy="252" r="5"/>
+              <circle cx="240" cy="277" r="5"/><circle cx="317" cy="315" r="5"/><circle cx="438" cy="287" r="5"/><circle cx="489" cy="330" r="5"/>
+              <circle cx="354" cy="125" r="5"/><circle cx="420" cy="140" r="5"/><circle cx="110" cy="312" r="5"/>
+            </g>
+            <g fill="#e49a65" stroke="#fff7ed" stroke-width="2"><circle cx="370" cy="190" r="6"/><circle cx="240" cy="277" r="5"/></g>
+            <g stroke="#f9fbf5" stroke-width="1.4" fill="none">
+              <path d="M370 190 L422 119 L470 119"/><path d="M110 312 L82 350 L48 350"/><path d="M384 220 L421 256 L476 256"/><path d="M216 157 L196 112 L143 112"/>
+            </g>
+            <g fill="#244e56" font-size="11" font-weight="700" letter-spacing="1.3"><text x="476" y="123">MHW</text><text x="40" y="354">HAB</text><text x="480" y="260">STS</text><text x="103" y="116">NPP</text></g>
+            <g fill="#5d8584" font-size="9" letter-spacing="1.1"><text x="45" y="76">ENVIRONMENTAL SIGNALS</text><text x="367" y="405">ECOLOGICAL RESPONSE</text></g>
+            <path d="M44 385 H530" stroke="#a5c6bc" stroke-width="1" stroke-dasharray="2 5"/>
+            <path d="M48 397 C85 397 89 389 115 391 S153 409 182 395 S228 377 254 391 S298 410 327 392 S375 379 401 389 S448 404 478 388 S508 387 530 382" fill="none" stroke="#397a78" stroke-width="2" stroke-linecap="round"/>
+            <path d="M48 397 C85 397 89 389 115 391 S153 409 182 395 S228 377 254 391 S298 410 327 392 S375 379 401 389 S448 404 478 388 S508 387 530 382 L530 421 L48 421Z" fill="#79aaa2" opacity=".14"/>
+            <circle cx="254" cy="391" r="4" fill="#e49a65" stroke="#fff7ed" stroke-width="1.5"/>
           </g>
-          <path d="M181 167 C206 143 228 154 237 175 L228 193 207 199 198 220 180 214 167 193Z" fill="#edf2e8" opacity=".95"/>
-          <path d="M297 135 L326 149 339 176 327 197 341 218 324 239 302 227 292 202 270 188 278 165Z" fill="#edf2e8" opacity=".95"/>
-          <path d="M346 268 L376 278 391 303 374 325 365 350 342 335 330 308Z" fill="#edf2e8" opacity=".95"/>
-          <path d="M214 280 L241 290 248 319 234 345 218 329 204 302Z" fill="#edf2e8" opacity=".95"/>
-          <circle cx="375" cy="178" r="74" fill="url(#heat)"/>
-          <circle cx="375" cy="178" r="5" fill="#e59c67" stroke="#fff8ef" stroke-width="2"/>
-          <circle cx="222" cy="299" r="5" fill="#e59c67" stroke="#fff8ef" stroke-width="2"/>
-          <circle cx="296" cy="223" r="4" fill="#244f5a" stroke="#f3f7f2" stroke-width="2"/>
-          <g stroke="#f9fbf6" stroke-width="1.4" fill="none">
-            <path d="M375 178 L448 116 L492 116"/>
-            <path d="M222 299 L147 359 L92 359"/>
-            <path d="M296 223 L358 288 L433 288"/>
-          </g>
-          <g fill="#203f49" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.8">
-            <text x="496" y="120">MHW</text>
-            <text x="56" y="363">HAB</text>
-            <text x="438" y="292">STS</text>
-          </g>
-          <g fill="#527b7e" font-family="Arial, sans-serif" font-size="10" letter-spacing="1.5">
-            <text x="44" y="72">OBSERVATION</text>
-            <text x="397" y="429">ECOLOGICAL RESPONSE</text>
-          </g>
-          <path d="M42 90 C96 63 134 77 159 101 S214 137 246 112" stroke="#8ab4ad" stroke-width="1.4" fill="none"/>
-          <path d="M347 395 C387 366 433 373 461 393 S512 421 540 402" stroke="#8ab4ad" stroke-width="1.4" fill="none"/>
-          <circle cx="42" cy="90" r="3" fill="#8ab4ad"/><circle cx="246" cy="112" r="3" fill="#8ab4ad"/>
-          <circle cx="347" cy="395" r="3" fill="#8ab4ad"/><circle cx="540" cy="402" r="3" fill="#8ab4ad"/>
         </svg>
         <div class="visual-caption">
           <span data-i18n="visual.caption">From environmental signals to ecological insight</span>
@@ -143,7 +132,7 @@
 
     <section class="section section-wrap about-section" id="about">
       <div class="section-heading">
-        <p class="section-index">01 / <span data-i18n="sections.about">ABOUT</span></p>
+        <p class="section-index">01/<span data-i18n="sections.about">ABOUT</span></p>
         <h2 data-i18n="about.title">Connecting computational methods with ecological questions.</h2>
       </div>
       <div class="about-grid">
@@ -162,7 +151,7 @@
     <section class="section section-wrap research-section" id="research">
       <div class="section-heading heading-with-note">
         <div>
-          <p class="section-index">02 / <span data-i18n="sections.research">RESEARCH</span></p>
+          <p class="section-index">02/<span data-i18n="sections.research">RESEARCH</span></p>
           <h2 data-i18n="research.title">Questions that guide the work.</h2>
         </div>
         <p class="section-note" data-i18n="research.note">Four connected themes, from environmental extremes to practical prediction systems.</p>
@@ -173,7 +162,7 @@
     <section class="section section-wrap projects-section" id="projects">
       <div class="section-heading heading-with-note">
         <div>
-          <p class="section-index">03 / <span data-i18n="sections.projects">PROJECTS</span></p>
+          <p class="section-index">03/<span data-i18n="sections.projects">PROJECTS</span></p>
           <h2 data-i18n="projects.title">Research, made tangible.</h2>
         </div>
         <p class="section-note" data-i18n="projects.note">Selected prototypes and research frameworks. Project status and links are kept explicit.</p>
@@ -184,7 +173,7 @@
     <section class="section section-wrap publications-section" id="publications">
       <div class="section-heading heading-with-note">
         <div>
-          <p class="section-index">04 / <span data-i18n="sections.publications">PUBLICATIONS</span></p>
+          <p class="section-index">04/<span data-i18n="sections.publications">PUBLICATIONS</span></p>
           <h2 data-i18n="publications.title">Selected publications.</h2>
         </div>
         <p class="section-note" data-i18n="publications.note">Citation details are intentionally marked for completion wherever the exact title or DOI has not been verified.</p>
@@ -211,7 +200,7 @@
 
     <section class="section section-wrap background-section" id="background">
       <div class="section-heading">
-        <p class="section-index">05 / <span data-i18n="sections.background">BACKGROUND</span></p>
+        <p class="section-index">05/<span data-i18n="sections.background">BACKGROUND</span></p>
         <h2 data-i18n="background.title">Training across disciplines.</h2>
       </div>
       <div class="background-grid">
@@ -237,7 +226,7 @@
     <section class="section section-wrap contact-section" id="contact">
       <div class="contact-panel">
         <div>
-          <p class="section-index">06 / <span data-i18n="sections.contact">CONTACT</span></p>
+          <p class="section-index">06/<span data-i18n="sections.contact">CONTACT</span></p>
           <h2 data-i18n="contact.title">For research, collaboration, and scientific exchange.</h2>
           <p class="contact-description" data-i18n="contact.description">I welcome conversations around marine ecology, interpretable AI, environmental prediction, and interdisciplinary research.</p>
         </div>
@@ -251,9 +240,9 @@
           <div class="contact-link contact-placeholder">
             <span>Google Scholar</span><span class="contact-link-value" data-i18n="placeholders.scholar">[Add profile URL]</span><span class="placeholder-tag" data-i18n="placeholders.toAdd">TO ADD</span>
           </div>
-          <div class="contact-link contact-placeholder">
-            <span>ORCID</span><span class="contact-link-value" data-i18n="placeholders.orcid">[Add ORCID iD]</span><span class="placeholder-tag" data-i18n="placeholders.toAdd">TO ADD</span>
-          </div>
+          <a class="contact-link" href="https://orcid.org/0000-0003-3119-4285" target="_blank" rel="noopener noreferrer">
+            <span>ORCID</span><span class="contact-link-value">0000-0003-3119-4285</span><span aria-hidden="true">↗</span>
+          </a>
         </div>
       </div>
     </section>
