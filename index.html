@@ -56,57 +56,101 @@
         </div>
       </div>
 
-      <div class="hero-visual" aria-label="Abstract ocean and ecological network illustration" role="img">
+      <div class="hero-visual" aria-label="Shock-transmission-spillover globe illustration" role="img">
         <div class="visual-topline">
-          <span data-i18n="visual.label">OCEAN SYSTEMS / 01</span>
+          <span data-i18n="visual.label">OCEAN SYSTEMS/01</span>
           <span class="visual-live"><i></i><span data-i18n="visual.status">Research in progress</span></span>
         </div>
-        <svg class="ocean-graphic" viewBox="0 0 580 500" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <svg class="ocean-graphic sts-globe" viewBox="0 0 580 500" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <defs>
-            <linearGradient id="fieldFill" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f0f4ec"/><stop offset="100%" stop-color="#c8e0d8"/></linearGradient>
-            <radialGradient id="anomalyGlow" cx=".5" cy=".5" r=".5"><stop offset="0%" stop-color="#e8a06b" stop-opacity=".72"/><stop offset="100%" stop-color="#e8a06b" stop-opacity="0"/></radialGradient>
-            <pattern id="fieldDots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".8" fill="#8eb4ac" opacity=".38"/></pattern>
-            <clipPath id="fieldClip"><rect x="26" y="42" width="528" height="390" rx="22"/></clipPath>
+            <radialGradient id="stsOcean" cx="32%" cy="26%" r="84%">
+              <stop offset="0%" stop-color="#d9eee6"/><stop offset="48%" stop-color="#7eb0aa"/><stop offset="100%" stop-color="#285d70"/>
+            </radialGradient>
+            <radialGradient id="stsSourceGlow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#ef3e38" stop-opacity=".98"/><stop offset="38%" stop-color="#ef3e38" stop-opacity=".48"/><stop offset="100%" stop-color="#ef3e38" stop-opacity="0"/>
+            </radialGradient>
+            <linearGradient id="stsRiskFront" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0%" stop-color="#f9d66f" stop-opacity="0"/><stop offset="45%" stop-color="#f4ba59" stop-opacity=".6"/><stop offset="100%" stop-color="#df8a32" stop-opacity=".98"/>
+            </linearGradient>
+            <linearGradient id="stsSpillZone" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#a66c35" stop-opacity=".94"/><stop offset="100%" stop-color="#73401a" stop-opacity=".76"/>
+            </linearGradient>
+            <marker id="stsArrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto">
+              <path d="M0 0 L10 5.5 L0 11Z" fill="#5b95ce"/>
+            </marker>
+            <filter id="stsShadow" x="-25%" y="-25%" width="150%" height="150%">
+              <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#2b5057" flood-opacity=".13"/>
+            </filter>
+            <clipPath id="stsGlobeClip"><circle cx="326" cy="235" r="164"/></clipPath>
           </defs>
-          <rect x="26" y="42" width="528" height="390" rx="22" fill="url(#fieldFill)" stroke="#c7dcd3"/>
-          <g clip-path="url(#fieldClip)">
-            <rect x="26" y="42" width="528" height="390" fill="url(#fieldDots)" opacity=".72"/>
-            <g fill="none" stroke="#8bb8b0" stroke-width="1.25">
-              <path d="M-8 153 C54 99 108 118 153 154 S247 220 311 175 S424 95 590 147"/>
-              <path d="M-10 188 C48 139 107 154 156 188 S251 252 316 218 S429 140 590 187" opacity=".8"/>
-              <path d="M-10 231 C49 188 111 195 166 227 S258 289 326 256 S438 182 590 230" opacity=".7"/>
-              <path d="M-10 278 C53 236 116 242 171 270 S266 333 331 300 S442 228 590 276" opacity=".65"/>
-              <path d="M-10 326 C53 283 116 289 173 318 S269 377 335 348 S447 274 590 325" opacity=".75"/>
+          <circle cx="326" cy="235" r="183" fill="none" stroke="#b7ccc7" stroke-width="1.1" stroke-dasharray="3 8"/>
+          <circle cx="326" cy="235" r="164" fill="url(#stsOcean)" stroke="#5e8f92" stroke-width="1.5" filter="url(#stsShadow)"/>
+          <g clip-path="url(#stsGlobeClip)">
+            <g fill="none" stroke="#f7fbf7" stroke-opacity=".86" stroke-width="1.05">
+              <ellipse cx="326" cy="235" rx="164" ry="58"/><ellipse cx="326" cy="235" rx="164" ry="108"/>
+              <ellipse cx="326" cy="235" rx="60" ry="164"/><ellipse cx="326" cy="235" rx="109" ry="164"/>
+              <path d="M162 235 C219 209 267 265 326 235 S432 207 490 235"/>
+              <path d="M172 187 C225 207 270 166 326 189 S428 212 480 182"/>
+              <path d="M174 286 C230 256 278 306 330 284 S430 266 480 289"/>
             </g>
-            <ellipse cx="370" cy="190" rx="102" ry="77" fill="url(#anomalyGlow)"/>
-            <path d="M298 174 C320 147 357 145 383 164 C410 184 417 213 394 232 C370 252 333 245 312 224 C296 208 286 190 298 174Z" fill="none" stroke="#e0a174" stroke-width="1.4" stroke-dasharray="4 5"/>
-            <path d="M314 180 C335 159 363 162 383 178 C400 192 401 210 383 225 C363 241 337 230 323 216 C312 205 306 191 314 180Z" fill="none" stroke="#d58c59" stroke-width="1.3"/>
-            <g stroke="#4d8886" stroke-width="1.2" opacity=".82" fill="none">
-              <path d="M88 145 L153 181 L216 157 L275 205 L329 178 L384 220 L457 188"/>
-              <path d="M153 181 L176 252 L240 277 L275 205"/><path d="M240 277 L317 315 L384 220 L438 287 L489 330"/>
-              <path d="M329 178 L354 125 L420 140 L457 188"/><path d="M88 145 L110 312 L176 252"/>
+            <g fill="#f2f5ed" opacity=".97">
+              <path d="M184 173 L198 153 L221 149 L244 158 L257 176 L250 194 L231 201 L219 218 L198 213 L185 198Z"/>
+              <path d="M214 241 L239 249 L248 272 L236 297 L216 292 L204 268Z"/>
+              <path d="M257 313 L279 317 L294 335 L287 357 L267 365 L251 350 L246 331Z"/>
+              <path d="M352 152 L378 146 L403 153 L422 171 L425 193 L415 210 L429 227 L412 244 L390 235 L375 220 L353 210 L340 192 L344 172Z"/>
+              <path d="M403 275 L429 282 L443 306 L431 329 L410 342 L395 325 L395 297Z"/>
+              <path d="M474 186 L494 180 L510 190 L518 208 L511 228 L493 238 L477 232 L467 215Z"/>
+              <path d="M487 260 L508 267 L519 286 L512 307 L493 318 L478 307 L471 286Z"/>
             </g>
-            <g fill="#f6f7f1" stroke="#397a78" stroke-width="2">
-              <circle cx="88" cy="145" r="5"/><circle cx="153" cy="181" r="5"/><circle cx="216" cy="157" r="5"/><circle cx="275" cy="205" r="5"/>
-              <circle cx="329" cy="178" r="5"/><circle cx="384" cy="220" r="5"/><circle cx="457" cy="188" r="5"/><circle cx="176" cy="252" r="5"/>
-              <circle cx="240" cy="277" r="5"/><circle cx="317" cy="315" r="5"/><circle cx="438" cy="287" r="5"/><circle cx="489" cy="330" r="5"/>
-              <circle cx="354" cy="125" r="5"/><circle cx="420" cy="140" r="5"/><circle cx="110" cy="312" r="5"/>
+            <path d="M366 161 C406 150 441 160 459 185 C471 202 472 220 462 234 C449 249 427 257 397 252 C371 247 349 234 335 217Z"
+                  fill="rgba(145,83,31,.16)" stroke="#d89a56" stroke-width="2" stroke-dasharray="5 5"/>
+            <path d="M379 276 C402 269 423 272 440 283 C453 292 458 306 454 319 C449 333 436 341 414 343 C395 344 378 338 359 327Z"
+                  fill="rgba(145,83,31,.15)" stroke="#d89a56" stroke-width="2" stroke-dasharray="5 5"/>
+            <path d="M456 181 C477 176 496 180 510 192 C520 201 524 213 522 226 C520 238 511 247 495 250 C480 253 466 250 453 241 C462 222 464 200 456 181Z"
+                  fill="url(#stsSpillZone)"/>
+            <path d="M465 255 C485 254 503 261 515 274 C525 286 528 300 522 312 C516 325 502 332 484 332 C472 332 460 328 450 321 C456 303 458 280 465 255Z"
+                  fill="url(#stsSpillZone)"/>
+            <path d="M407 314 C430 302 452 299 472 301 C495 303 511 313 524 330" fill="none" stroke="url(#stsRiskFront)" stroke-width="22" stroke-linecap="round"/>
+            <path d="M407 314 C430 302 452 299 472 301 C495 303 511 313 524 330" fill="none" stroke="#d58b3a" stroke-width="1.6" stroke-linecap="round" opacity=".72"/>
+            <circle cx="337" cy="233" r="70" fill="url(#stsSourceGlow)"/>
+            <g fill="none" stroke="#69a2dd" stroke-width="5.4" stroke-linecap="round" marker-end="url(#stsArrow)" opacity=".98">
+              <path d="M337 233 C293 192 251 182 213 201"/>
+              <path d="M340 233 C372 191 414 173 462 190"/>
+              <path d="M340 237 C362 275 395 294 438 302"/>
+              <path d="M337 237 C306 274 275 290 236 286"/>
             </g>
-            <g fill="#e49a65" stroke="#fff7ed" stroke-width="2"><circle cx="370" cy="190" r="6"/><circle cx="240" cy="277" r="5"/></g>
-            <g stroke="#f9fbf5" stroke-width="1.4" fill="none">
-              <path d="M370 190 L422 119 L470 119"/><path d="M110 312 L82 350 L48 350"/><path d="M384 220 L421 256 L476 256"/><path d="M216 157 L196 112 L143 112"/>
-            </g>
-            <g fill="#244e56" font-size="11" font-weight="700" letter-spacing="1.3"><text x="476" y="123">MHW</text><text x="40" y="354">HAB</text><text x="480" y="260">STS</text><text x="103" y="116">NPP</text></g>
-            <g fill="#5d8584" font-size="9" letter-spacing="1.1"><text x="45" y="76">ENVIRONMENTAL SIGNALS</text><text x="367" y="405">ECOLOGICAL RESPONSE</text></g>
-            <path d="M44 385 H530" stroke="#a5c6bc" stroke-width="1" stroke-dasharray="2 5"/>
-            <path d="M48 397 C85 397 89 389 115 391 S153 409 182 395 S228 377 254 391 S298 410 327 392 S375 379 401 389 S448 404 478 388 S508 387 530 382" fill="none" stroke="#397a78" stroke-width="2" stroke-linecap="round"/>
-            <path d="M48 397 C85 397 89 389 115 391 S153 409 182 395 S228 377 254 391 S298 410 327 392 S375 379 401 389 S448 404 478 388 S508 387 530 382 L530 421 L48 421Z" fill="#79aaa2" opacity=".14"/>
-            <circle cx="254" cy="391" r="4" fill="#e49a65" stroke="#fff7ed" stroke-width="1.5"/>
+            <circle cx="337" cy="233" r="6" fill="#fff9f3" stroke="#163d4b" stroke-width="2"/>
           </g>
+          <g transform="translate(89 310)">
+            <circle r="31" fill="#eef4ef" stroke="#8eb3b0" stroke-width="1.8"/>
+            <path d="M-8 -13 L4 -21 L10 -15 L-2 -7Z" fill="#7fa6b2" stroke="#507581" stroke-width="1.5"/>
+            <path d="M-3 -8 L9 4" stroke="#507581" stroke-width="3.2" stroke-linecap="round"/>
+            <path d="M-15 11 C-5 7 8 7 18 12" fill="none" stroke="#507581" stroke-width="2.8" stroke-linecap="round"/>
+            <path d="M2 4 C10 10 10 18 6 22 M-9 17 L10 17" fill="none" stroke="#507581" stroke-width="2.8" stroke-linecap="round"/>
+          </g>
+          <g fill="#1a4250" font-size="11.5" font-weight="700" letter-spacing=".9">
+            <text x="76" y="91">OBSERVATION</text><text x="108" y="153">MHW / MPs</text>
+            <text x="425" y="98">SPILLOVER</text><text x="423" y="112">ZONES</text>
+            <text x="443" y="360">RISK FRONT</text><text x="132" y="349">AI MICROSCOPE</text>
+            <text x="310" y="237" fill="#fff9f3" font-size="10.5" letter-spacing=".5">SHOCK</text>
+          </g>
+          <g fill="#5a8080" font-size="9.5" letter-spacing=".65">
+            <text x="76" y="105">environmental signals</text><text x="103" y="166">shock source</text>
+            <text x="389" y="218">shock → transmission → spillover</text>
+            <text x="397" y="231">currents / teleconnections</text>
+          </g>
+          <g stroke="#f9fbf7" stroke-width="1.3" fill="none">
+            <path d="M337 233 L292 116 L204 116"/><path d="M213 201 L142 168 L94 168"/>
+            <path d="M462 190 L520 156 L543 156"/><path d="M438 302 L521 343 L543 343"/>
+          </g>
+          <rect x="137" y="390" width="348" height="50" rx="10" fill="#f6e9dd" stroke="#d2b28d" stroke-width="1.1"/>
+          <text x="151" y="410" fill="#85582f" font-size="10.5" font-weight="700">INSIGHT</text>
+          <text x="197" y="410" fill="#85582f" font-size="10.2">Marine source and impact may be spatially separated;</text>
+          <text x="151" y="426" fill="#85582f" font-size="10.2">monitor and respond along the downstream risk front.</text>
         </svg>
         <div class="visual-caption">
           <span data-i18n="visual.caption">From environmental signals to ecological insight</span>
-          <span class="caption-index">AI / ECOLOGY / 2026</span>
+          <span class="caption-index">AI/ECOLOGY/2026</span>
         </div>
       </div>
     </section>
@@ -176,10 +220,8 @@
           <p class="section-index">04/<span data-i18n="sections.publications">PUBLICATIONS</span></p>
           <h2 data-i18n="publications.title">Selected publications.</h2>
         </div>
-        <p class="section-note" data-i18n="publications.note">Citation details are intentionally marked for completion wherever the exact title or DOI has not been verified.</p>
       </div>
       <div class="publication-list" id="publication-list"></div>
-      <p class="editorial-note"><span aria-hidden="true">✳</span> <span data-i18n="publications.editorial">This is a working profile draft. Please replace all bracketed fields with verified bibliographic information before public release.</span></p>
     </section>
 
     <section class="section section-wrap recognition-section" id="awards">
@@ -210,15 +252,7 @@
         </div>
         <div>
           <h3 class="subheading" data-i18n="background.experience">Research experience</h3>
-          <div class="experience-card">
-            <span class="experience-marker"></span>
-            <div>
-              <p class="timeline-date" data-i18n="experience.period">Dates to be added</p>
-              <h4 data-i18n="experience.role">Research Assistant</h4>
-              <p class="timeline-place" data-i18n="experience.place">Ocean College, Zhejiang University</p>
-              <p class="timeline-description" data-i18n="experience.description">Research experience in marine science and ocean-related data analysis. Exact dates and project details to be added.</p>
-            </div>
-          </div>
+          <div class="timeline" id="experience-list"></div>
         </div>
       </div>
     </section>
@@ -231,17 +265,17 @@
           <p class="contact-description" data-i18n="contact.description">I welcome conversations around marine ecology, interpretable AI, environmental prediction, and interdisciplinary research.</p>
         </div>
         <div class="contact-links">
-          <a class="contact-link" href="https://github.com/Haoliu9427" target="_blank" rel="noopener noreferrer">
-            <span>GitHub</span><span class="contact-link-value">github.com/Haoliu9427</span><span aria-hidden="true">↗</span>
+          <a class="contact-link" href="mailto:962433015@qq.com">
+            <span data-i18n="contact.email">Email</span><span class="contact-link-value">962433015@qq.com</span><span aria-hidden="true">↗</span>
           </a>
-          <div class="contact-link contact-placeholder">
-            <span data-i18n="contact.email">Email</span><span class="contact-link-value" data-i18n="placeholders.email">[Add public email]</span><span class="placeholder-tag" data-i18n="placeholders.toAdd">TO ADD</span>
-          </div>
-          <div class="contact-link contact-placeholder">
-            <span>Google Scholar</span><span class="contact-link-value" data-i18n="placeholders.scholar">[Add profile URL]</span><span class="placeholder-tag" data-i18n="placeholders.toAdd">TO ADD</span>
-          </div>
+          <a class="contact-link" href="https://scholar.google.com/citations?user=wZEQ1fgAAAAJ&amp;hl=zh-CN&amp;authuser=1" target="_blank" rel="noopener noreferrer">
+            <span>Google Scholar</span><span class="contact-link-value">Google Scholar profile</span><span aria-hidden="true">↗</span>
+          </a>
           <a class="contact-link" href="https://orcid.org/0000-0003-3119-4285" target="_blank" rel="noopener noreferrer">
             <span>ORCID</span><span class="contact-link-value">0000-0003-3119-4285</span><span aria-hidden="true">↗</span>
+          </a>
+          <a class="contact-link" href="https://github.com/Haoliu9427" target="_blank" rel="noopener noreferrer">
+            <span>GitHub</span><span class="contact-link-value">github.com/Haoliu9427</span><span aria-hidden="true">↗</span>
           </a>
         </div>
       </div>
