@@ -6,8 +6,8 @@ en:{
 "sections.about":"ABOUT","sections.research":"RESEARCH","sections.projects":"PROJECTS","sections.publications":"PUBLICATIONS","sections.background":"BACKGROUND","sections.contact":"CONTACT","about.title":"Connecting computational methods with ecological questions","about.lead":"My work asks how marine and aquatic ecosystems respond to interacting environmental pressures — and how AI can help detect, explain, and anticipate those changes.","about.detail":"With training across applied mathematics, computer science, and environmental science, I combine predictive modelling with interpretable analysis, causal reasoning, and graph-based representations. The goal is not only to improve model performance, but to produce evidence that can support ecological understanding and environmental decision-making.","research.title":"Questions that guide the work","research.note":"Four connected themes, from environmental extremes to practical prediction systems.","projects.title":"Research, made tangible","projects.note":"Selected prototypes and research frameworks. Project status and links are kept explicit.","publications.title":"Selected publications","award.eyebrow":"RECOGNITION/2026","award.title":"Paradigm Creation Award","award.subtitle":"World Open-Source AI Competition · AI for Research","award.description":"Global finalist — 4th place overall, receiving the Paradigm Creation Award for GlobalHAB-Agent, a research agent for global harmful algal bloom prediction and early warning.","award.rank":"WORLD FINAL","background.title":"Training across disciplines","background.education":"Education","background.experience":"Research experience","contact.title":"For research, collaboration, and scientific exchange","contact.description":"I welcome conversations around marine ecology, interpretable AI, environmental prediction, and interdisciplinary research.","contact.email":"Email","footer.note":"Last updated, October 20, 2026","footer.top":"Back to top"},
 zh:{
 "skip":"跳转到正文","brand.subtitle":"学术主页与科研作品集","nav.about":"个人简介","nav.research":"研究方向","nav.projects":"科研项目","nav.publications":"代表论文","nav.background":"学术经历","nav.contact":"联系方式",
-"hero.eyebrow":"科研人员·人工智能×海洋生态","hero.title":"以<span class=\"hero-highlight\">智能方法</span>理解不断变化的海洋","hero.lede":"我的研究位于人工智能、海洋生态与全球变化的交叉领域，致力于发展可解释的分析方法，以理解生态响应并提升环境预测能力。","hero.ctaResearch":"查看研究方向","hero.ctaProjects":"查看科研项目","hero.affiliation":"南开大学 · 环境科学与工程学院","visual.label":"海洋系统/01","visual.status":"研究进行中","visual.caption":"从环境信号到生态认知","facts.one":"跨学科研究","facts.two":"核心研究主题","facts.three":"交互式科研智能体","facts.four":"范式创造奖",
-"sections.about":"个人简介","sections.research":"研究方向","sections.projects":"科研项目","sections.publications":"代表论文","sections.background":"学术经历","sections.contact":"联系方式","about.title":"让计算方法回应真实的生态问题","about.lead":"我关注海洋与水生生态系统如何响应相互作用的环境压力，以及人工智能如何帮助识别、解释并预判这些变化。","about.detail":"我的训练背景横跨应用数学、计算机科学与环境科学，研究中结合预测建模、可解释分析、因果推断和图结构表征。目标不只是提升模型性能，也希望形成能够支持生态理解与环境决策的证据。","research.title":"由科学问题驱动的研究","research.note":"四个彼此关联的主题，从复合环境极端到可落地的预测系统。","projects.title":"让研究变得可见、可用","projects.note":"展示部分原型系统与研究框架，并明确区分已公开项目和进行中的研究。","publications.title":"代表性论文","award.eyebrow":"奖项/2026","award.title":"范式创造奖","award.subtitle":"世界开源人工智能大赛·AI for Research","award.description":"全球总决赛第4名，并获得范式创造奖。参赛项目GlobalHAB-Agent面向全球有害藻华预测与预警。","award.rank":"全球总决赛","background.title":"跨学科的学术训练","background.education":"教育背景","background.experience":"科研经历","contact.title":"欢迎开展科研合作与学术交流","contact.description":"欢迎围绕海洋生态、可解释人工智能、环境预测及跨学科研究展开交流。","contact.email":"邮箱","footer.note":"最近更新，2026年10月20日","footer.top":"返回顶部"}};
+"hero.eyebrow":"人工智能 × 海洋生态研究","hero.title":"用<span class=\"hero-highlight\">人工智能</span>理解海洋生态变化","hero.lede":"我研究人工智能、海洋生态与全球变化交叉领域的问题，重点关注复合环境压力下的生态响应，并开发可解释的分析方法，改进环境预测。","hero.ctaResearch":"研究方向","hero.ctaProjects":"科研项目","hero.affiliation":"南开大学 · 环境科学与工程学院","visual.label":"海洋系统/01","visual.status":"研究进行中","visual.caption":"从环境变化中理解生态响应","facts.one":"交叉学科研究","facts.two":"主要研究方向","facts.three":"科研智能体原型","facts.four":"范式创造奖",
+"sections.about":"个人简介","sections.research":"研究方向","sections.projects":"科研项目","sections.publications":"代表论文","sections.background":"学术经历","sections.contact":"联系方式","about.title":"把计算方法用在真实的生态问题上","about.lead":"我关注海洋和湖泊生态系统如何响应多种环境压力，也探索人工智能能否帮助我们更早发现生态变化、解释相关过程，并提高预测的可靠性。","about.detail":"我接受过应用数学、计算机科学和环境科学方面的训练。研究中，我结合预测建模、可解释机器学习、因果分析和图结构方法。我不仅关注模型预测得准不准，也希望弄清哪些环境因素与生态变化相关，以及这些发现能为监测和管理提供什么参考。","research.title":"我关注的研究问题","research.note":"从复合环境压力到生态预警，这些研究方向彼此关联。","projects.title":"把研究思路做成工具","projects.note":"这里展示已开放的演示系统，以及仍在推进的研究框架；项目状态和链接会如实标明。","publications.title":"代表性论文","award.eyebrow":"获奖经历·2026","award.title":"范式创造奖","award.subtitle":"世界开源人工智能大赛 · AI for Research","award.description":"在世界开源人工智能大赛AI for Research全球总决赛中获得第4名，并获范式创造奖。参赛项目GlobalHAB-Agent聚焦全球有害藻华的预测与预警。","award.rank":"全球总决赛","background.title":"跨学科的学术训练","background.education":"教育背景","background.experience":"科研经历","contact.title":"欢迎交流与合作","contact.description":"欢迎就海洋生态、可解释人工智能、环境预测和交叉学科研究交流想法、探讨合作。","contact.email":"邮箱","footer.note":"最近更新，2026年10月20日","footer.top":"返回顶部"}};
 const R={
 en:[
 ["⌁","Compound marine extremes","Marine heatwaves, acidification, hypoxia, and interacting stressors — with a focus on ecological exposure and response."],
@@ -15,10 +15,10 @@ en:[
 ["⌘","Interpretable & causal AI","Explainable machine learning, transfer entropy, counterfactual reasoning, and lag-aware analysis for environmental systems."],
 ["⌬","Graph learning & scientific agents","Graph-based spatial spillovers, higher-order interactions, and research agents that connect data, models, and hypotheses."]],
 zh:[
-["⌁","海洋复合极端","关注海洋热浪、酸化、缺氧及其交互作用，研究生态暴露与响应。"],
-["◎","生态预测与预警","面向有害藻华与生态异常预警，将环境信号与生态结果联系起来。"],
-["⌘","可解释与因果人工智能","结合可解释机器学习、传递熵、反事实推理和考虑时滞的环境系统分析。"],
-["⌬","图学习与科研智能体","研究空间溢出、高阶生态相互作用，以及连接数据、模型与科学假设的科研智能体."]]};
+["⌁","海洋复合极端","关注海洋热浪、海洋酸化、缺氧等环境压力，以及它们与生态响应之间的关系。"],
+["◎","生态预测与预警","围绕有害藻华和生态异常，探索如何利用环境数据识别风险并开展预测预警。"],
+["⌘","可解释机器学习与因果分析","运用可解释机器学习、传递熵和反事实分析，考察环境因素之间的联系及其滞后效应。"],
+["⌬","图学习与科研智能体","研究环境影响的空间溢出和高阶生态相互作用，并开发连接数据、模型与科学假设的科研智能体。"]]};
 const P={
 en:[
 {type:"OPEN-SOURCE DEMO",status:"Live demo",title:"GlobalHAB-Agent",desc:"A research-agent prototype for global harmful algal bloom prediction and early warning, integrating environmental indicators, adaptive analysis, and event replay.",tags:["HAB forecasting","Environmental signals","Research agent"],links:[["Open demo","https://globalhab-agent-demo.streamlit.app/"],["Source code","https://github.com/Haoliu9427/GlobalHAB-Agent-demo"]]},
@@ -26,10 +26,10 @@ en:[
 {type:"RESEARCH FRAMEWORK",status:"In progress",title:"STS-Graph",desc:"A shock–transmission–spillover framework for examining compound extremes, spatial pathways, and algal-bloom dynamics in lake ecosystems.",tags:["Compound extremes","Spatial spillovers","Graph learning"],links:[["Project details to be added",null]]},
 {type:"ECOLOGICAL NETWORKS",status:"In progress",title:"Higher-order plankton food webs",desc:"A higher-order interaction framework for studying plankton food-web stability and resilience under compound marine stress.",tags:["Hypergraphs","Food-web stability","ST-HGAT"],links:[["Project details to be added",null]]}],
 zh:[
-{type:"开源演示系统",status:"演示可访问",title:"GlobalHAB-Agent",desc:"面向全球有害藻华预测预警的科研智能体原型，整合环境指标、自适应分析与事件回放。",tags:["赤潮预测","环境信号","科研智能体"],links:[["打开演示","https://globalhab-agent-demo.streamlit.app/"],["源代码","https://github.com/Haoliu9427/GlobalHAB-Agent-demo"]]},
-{type:"开源演示系统",status:"演示可访问",title:"CoralBleach-Agent",desc:"用于展示珊瑚白化预测、科学问题定义与模拟实验迭代的工作流。演示版本使用合成数据。",tags:["珊瑚白化","模拟实验","模型验证"],links:[["打开演示","https://haoliu9427.github.io/CoralBleach-Agent-demo/"],["源代码","https://github.com/Haoliu9427/CoralBleach-Agent-demo"]]},
-{type:"研究框架",status:"研究进行中",title:"STS-Graph",desc:"基于冲击—传导—溢出（STS）框架，分析湖泊生态系统中复合极端、空间传播路径与藻华动态。",tags:["复合极端","空间溢出","图学习"],links:[["项目详情待补充",null]]},
-{type:"生态网络",status:"研究进行中",title:"浮游生物高阶食物网",desc:"构建高阶相互作用框架，研究复合海洋压力下浮游生物食物网的稳定性与韧性。",tags:["超图","食物网稳定性","ST-HGAT"],links:[["项目详情待补充",null]]}]};
+{type:"开源演示系统",status:"演示可访问",title:"GlobalHAB-Agent",desc:"面向全球有害藻华预测预警的科研智能体原型，整合环境指标与分析流程，并支持典型事件回放。",tags:["赤潮预测","环境信号","科研智能体"],links:[["打开演示","https://globalhab-agent-demo.streamlit.app/"],["源代码","https://github.com/Haoliu9427/GlobalHAB-Agent-demo"]]},
+{type:"开源演示系统",status:"演示可访问",title:"CoralBleach-Agent",desc:"展示珊瑚白化预测、科学问题梳理、模拟实验和模型验证的演示流程。当前版本使用合成数据，不代表真实业务预测结果。",tags:["珊瑚白化","模拟实验","模型验证"],links:[["打开演示","https://haoliu9427.github.io/CoralBleach-Agent-demo/"],["源代码","https://github.com/Haoliu9427/CoralBleach-Agent-demo"]]},
+{type:"研究框架",status:"研究进行中",title:"STS-Graph",desc:"以冲击—传导—溢出（STS）框架为基础，研究复合极端事件的空间传播路径，以及这些过程与湖泊藻华变化之间的关系。",tags:["复合极端","空间溢出","图学习"],links:[["项目详情待补充",null]]},
+{type:"生态网络",status:"研究进行中",title:"浮游生物高阶食物网",desc:"研究复合海洋压力下浮游生物食物网的稳定性与韧性，重点关注高阶相互作用如何影响群落关系。",tags:["超图","食物网稳定性","ST-HGAT"],links:[["项目详情待补充",null]]}]};
 const PUB={
 en:[
 ["2025","Global Change Biology","Marine heatwaves and iceberg melting in polar areas intensify phytoplankton blooms","First author","First author"],
@@ -55,9 +55,9 @@ zh:[["博士研究生·环境科学","南开大学"],["硕士研究生·融合�
 };
 const X={
 en:[["Research Assistant · Academic Research","Ocean College, Zhejiang University"]],
-zh:[["科研助理·学术/科研","浙江大学海洋学院"]]
+zh:[["科研助理","浙江大学海洋学院"]]
 };
-let lang="en";const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+let lang="zh";const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 function normalizeChineseSpacing(root){
 if(lang!=="zh")return;
 const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
