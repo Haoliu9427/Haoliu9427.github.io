@@ -30,3 +30,13 @@
 .sts-globe-realistic a{color:inherit}
 .publication-title a{color:inherit;text-decoration-color:rgba(72,125,125,.35);text-underline-offset:3px}
 .publication-title a:hover{text-decoration-color:currentColor}
+
+/* Refined homepage globe and safe caption spacing */
+.sts-globe-realistic{overflow:visible}
+.sts-globe-realistic image{filter:drop-shadow(0 7px 7px rgba(41,81,93,.10))}
+.visual-caption{left:24px;right:28px;bottom:16px;gap:12px;align-items:flex-end}
+.visual-caption>span:first-child{max-width:68%;min-width:0}
+.caption-index{flex:0 0 auto;white-space:nowrap;margin-left:auto;padding-right:7px;font:9px var(--mono);letter-spacing:.035em;color:#7c9997}
+.publication-title a{color:inherit;text-decoration-color:rgba(72,125,125,.35);text-underline-offset:3px}
+.publication-title a:hover{text-decoration-color:currentColor}
+@media(max-width:760px){.visual-caption{left:18px;right:18px;bottom:14px;gap:8px;font-size:9px}.visual-caption>span:first-child{max-width:62%}.caption-index{font-size:8px;padding-right:0}}
